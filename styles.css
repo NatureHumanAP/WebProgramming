@@ -5,7 +5,7 @@
     position: relative;
     width: 500px;
     height: 700px;
-    background-color: white;
+    background-image: url("img/space.jpeg");
   }
   
   /* CSS styles for the player */
@@ -15,7 +15,7 @@
     left: 225px;
     width: 50px;
     height: 50px;
-    background-color: white;
+
   }
   
   /* CSS styles for the enemies */
@@ -23,8 +23,10 @@
     position: absolute;
     width: 30px;
     height: 30px;
-    background-color: red;
+    background-image: url("img/ufo.png"); /* Path to your enemy image */
+    background-size: cover;
   }
+
   
   /* CSS styles for the bullets */
   .bullet {
@@ -39,7 +41,8 @@
     position: absolute;
     width: 30px;
     height: 30px;
-    background-color: green;
+    background-image: url("/img/heart.png");
+    background-size: cover;
   }
   
   /* CSS styles for the score and lives */
@@ -47,7 +50,7 @@
     position: absolute;
     top: 10px;
     left: 10px;
-    color: black;
+    color: white;
     font-size: 20px;
     font-weight: bold;
   }
@@ -56,8 +59,16 @@
     position: absolute;
     top: 10px;
     left: 450px;
-    color: black;
+    color: white;
     font-size: 20px;
     font-weight: bold;
   }
-  
+
+  #level{
+    position: absolute;
+    top: 10px;
+    left: 210px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+  }
