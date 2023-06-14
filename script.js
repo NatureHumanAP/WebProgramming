@@ -213,21 +213,7 @@ function updateScore() {
             enemy.style.transitionDuration = newSpeed + 's';
         }
     }
-  
-  // 새로운 적 생성
-  function spawnNewEnemy() {
-    const enemy = document.createElement('div');
-    enemy.className = 'new_enemy';
-    enemy.style.backgroundColor = 'black'; // 초기 색상을 검정으로 설정
-    const enemyCell = Math.floor(Math.random() * 10); // 적이 생성될 랜덤한 셀
-    const enemyX = enemyCell * CELL_WIDTH;
-    const enemyY = 0;
-    enemy.style.left = enemyX + 'px';
-    enemy.style.top = enemyY + 'px';
-    enemies.push(enemy);
-    enemiesContainer.appendChild(enemy);
-  }
-  
+   
   // 게임 오버
   function gameOver() {
     alert('게임 오버!');
