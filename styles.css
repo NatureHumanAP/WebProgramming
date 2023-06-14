@@ -1,6 +1,3 @@
-/* styles.css */
-
-/* CSS styles for the game container */
 #game-container {
     position: relative;
     width: 500px;
@@ -8,7 +5,7 @@
     background-image: url("img/space.jpeg");
   }
   
-  /* CSS styles for the player */
+
   #player {
     position: absolute;
     top: 650px;
@@ -17,8 +14,7 @@
     height: 50px;
 
   }
-  
-  /* CSS styles for the enemies */
+
   .enemy {
     position: absolute;
     width: 30px;
@@ -27,8 +23,7 @@
     background-size: cover;
   }
 
-  
-  /* CSS styles for the bullets */
+
   .bullet {
     position: absolute;
     width: 5px;
@@ -36,7 +31,7 @@
     background-color: yellow;
   }
   
-  /* CSS styles for the additional life */
+
   .additional-life {
     position: absolute;
     width: 30px;
@@ -45,7 +40,7 @@
     background-size: cover;
   }
   
-  /* CSS styles for the score and lives */
+
   #score {
     position: absolute;
     top: 10px;
